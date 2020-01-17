@@ -1,135 +1,97 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.credits{
+    display: flex;
+
+}
 .credit{
-    position: absolute;
-    left: 1311.69px;
-    top: 16px;
+    margin-right: 7px;
 }
-.sixnine{
-    position: absolute;
-    left: 1340.69px;
-    top: -3.69px;
-    font-size: 18.69px;
+.punten {
+    margin-right: 20px;
+    margin-top: 4px;
 }
-#logout {
+.main{
+    display: flex;
     position: absolute;
-    left: 1380.69px;
-    top: 18.69px;   
-    border-style: none;
+    left: 0px;
 }
 
-.keuzen{
-    background-color: rgb(15, 15, 31);
+
+.sidebalk{
     display: flex;
     flex-direction: column;
-    position:absolute;
-    left:0;
-    top:59px;
-    padding-bottom: 404px;
+    background-color: rgb(0, 10, 54);
+    padding-bottom: 366px;
     padding-left: 8px;
     padding-right: 19px;
     padding-top: 20px;
-}
-.keuzen1{
-    margin-top: 30px;
-}
-.opties {
-   
-    border-style: none;
-}
+    justify-content: space-evenly;
 
-.module{
-    position: absolute;
-    left: 56.69px;
-    top: -10px;
-    font-size:69px;
-    background-color: rgb(25, 146, 146);
-    color: white;
-    padding-left: 70px;
-    padding-right: 1143.69px;
-    padding-bottom: 70px;
-    padding-top: 50px;
-}
-body {
-    font-family: monospace;
-    
-}
-.eerste{
-    position: absolute;
-    left: 150px;
-    top: 300px;
+
  
 }
+.module{
+    display: flex;
+    flex-direction: row;
+    margin-top: -1px;
+    margin-left:29px ;
+    font-size: 49px;
+    color: white;
+}
+
+.id{
+    opacity: 20%;
+}
+.eentweedrie{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: -69px;
+    margin-top: 169px;
+    font-size: 22px;
+
+
+}
 .tweede{
-    position: absolute;
-    left: 669px;
-    top: 300px;
+    margin-left: 300px;
+
 }
 .derde{
-    position: absolute;
-    left: 1100px;
-    top: 300px;
-}
-.bigyoink{
-    font-size: 20px;
-}
-.id {
-    opacity: 50%;
-}
-.naam {
-    opacity: 50%;
-}
-.open{
-    opacity: 50%;
-}
-.lijninfo{
-    border-top: 1px solid black;
-    width: 1415.69px;
-    opacity: 10%;
-}
+    margin-left: 270px;
 
-.lijn1.lijninfo {
+}
+.block{
+    position: absolute;
+    top: 47px;
+    z-index: -1;
+}
+.house {
+    padding-bottom: 20px;
+}
+.baseline{
+    padding-bottom: 20px;
+}
+.star{
+    padding-bottom: 20px;
+}
+.checkbox{
+    padding-bottom: 20px;
+}
+.people{
+    padding-bottom: 20px;
+}
+a:link, a:visited {
+    display: none;
+    background-color: rgb(2, 12, 56);
 
-    position: absolute;
-    top: 352.69px;
-    left: 120px;
- }
-.lijn2.lijninfo{
-    position: absolute;
-    top: 395px;
-    left: 120px;
-}
-.lijn3.lijninfo{
-    position: absolute;
-    top: 440px;
-    left: 120px;
-}
-.lijn4.lijninfo{
-    position: absolute;
-    top: 480px;
-    left: 120px;
-}
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
 
-.lijn5.lijninfo{
-    position: absolute;
-    top: 525.69px;
-    left: 120px;
-}
-
-.lijn6.lijninfo{
-    position: absolute;
-    top: 570px;
-    left: 120px;
-}
-
-.lijn7.lijninfo{
-    position: absolute;
-    top: 615px;
-    left: 120px;
-}
-.headerlijn {
-    position: absolute;
-    top: 2px;
-    left: 1369.69px;
-    border-left: 1px solid black; 
-    opacity: 10%;
-    height: 55px;
-}
+  a:hover, a:active {
+    background-color: rgb(53, 94, 182);
+    height: 50px;
+  }
